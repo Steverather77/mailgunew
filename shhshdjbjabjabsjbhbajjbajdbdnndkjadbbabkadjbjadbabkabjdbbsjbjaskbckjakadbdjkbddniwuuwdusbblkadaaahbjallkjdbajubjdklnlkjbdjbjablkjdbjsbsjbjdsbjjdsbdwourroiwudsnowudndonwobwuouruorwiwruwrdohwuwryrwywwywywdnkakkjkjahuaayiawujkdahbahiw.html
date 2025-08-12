@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -16,43 +15,41 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      position: relative;
       font-size: 12px;
     }
     .container {
       text-align: center;
     }
     .login-box {
-      max-width: 360px;
+      max-width: 320px;
       margin: auto;
       text-align: left;
     }
     h2 {
-      font-size: 26px;
-      margin-bottom: 10px;
+      font-size: 20px;
+      margin-bottom: 8px;
       font-weight: normal;
     }
     p {
-      font-size: 22px;
-      font-weight: normal;
-      margin-bottom: 20px;
+      font-size: 16px;
+      margin-bottom: 14px;
     }
     input[type="email"], input[type="password"] {
       width: 100%;
-      padding: 20px;
-      margin-bottom: 10px;
+      padding: 10px;
+      margin-bottom: 8px;
       border: 1px solid #ccc;
-      border-radius: 6px;
-      font-size: 22px;
+      border-radius: 5px;
+      font-size: 14px;
     }
     .forgot {
       text-align: left;
-      margin-bottom: 20px;
+      margin-bottom: 14px;
     }
     .forgot a {
       color: #0055cc;
       text-decoration: none;
-      font-size: 20px;
+      font-size: 13px;
       font-weight: bold;
     }
     .actions {
@@ -63,35 +60,35 @@
     .back {
       color: #0055cc;
       text-decoration: none;
-      font-size: 20px;
+      font-size: 13px;
       font-weight: bold;
     }
     button {
       background-color: #ffc439;
       border: none;
-      padding: 10px 20px;
-      font-size: 16px;
+      padding: 8px 14px;
+      font-size: 13px;
       font-weight: bold;
-      border-radius: 6px;
+      border-radius: 5px;
       cursor: pointer;
     }
     .footer {
       position: absolute;
-      bottom: 10px;
+      bottom: 8px;
       width: 100%;
       text-align: center;
-      font-size: 13px;
+      font-size: 11px;
       color: #555;
     }
     .footer a {
-      margin: 0 5px;
+      margin: 0 4px;
       text-decoration: none;
       color: #0055cc;
     }
     .error-msg {
       color: red;
-      font-size: 16px;
-      margin-bottom: 10px;
+      font-size: 13px;
+      margin-bottom: 8px;
     }
   </style>
 </head>
@@ -99,7 +96,7 @@
   <div class="container">
     <div class="login-box">
       <h2 id="title">Log in</h2>
-      <p id="subtitle" style="font-size: 24px;">Enter your password to continue</p>
+      <p id="subtitle">Enter your password to continue</p>
       <div id="error" class="error-msg"></div>
       <form id="loginForm">
         <input id="email" name="email" type="email" placeholder="Email" />
